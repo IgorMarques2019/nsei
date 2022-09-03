@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Poppins';
-  box-sizing:border-box;
+  box-sizing: border-box;
 }
 
 html::-webkit-scrollbar {
@@ -18,22 +18,25 @@ html::-webkit-scrollbar {
   font-weight: 200;
 }
 
+.img {
+  height:inherit;
+}
+
 img {
   display: block;
   max-width: 100%;
-  max-height:100%;
-  width: 100%;
-  height: 100vh;
+  height: 100%;
 }
 
 .container {
   display: grid;
   grid-template-columns: 0.5fr 1fr;
-  grid-template-rows:1fr;
+  grid-template-rows: 1fr;
   width: 100%;
+  height: 100vh;
   outline: 1px solid red;
   place-items: center start;
-  background: #101010;
+  background: #ffffff;
 }
 
 .text-content {
